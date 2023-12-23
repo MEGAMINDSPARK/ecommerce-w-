@@ -1,86 +1,20 @@
 import React from 'react';
-import img1 from '../img/Album 1.png'
-import img2 from '../img/Album 2.png'
-import img3 from '../img/Album 3.png'
-import img4 from '../img/Album 4.png'
-import img5 from '../img/Cofee.png'
-import img6 from '../img/Shirt.png'
+import img1 from './sebastian-ervi-uCZVEo8iT9Q-unsplash.jpg';
 
 function Card() {
   return (
     <div>
-    <section id="music" class="container">
-          <h2>MUSIC</h2>
-          <div id ="music-content">
-              <div id='album1'>
-                  <h3>Album 1</h3>
-                  <div class="image-container">
-                      <img class="prod-images" src= {img1} alt="abc"/>
-                  </div>
-                                  <div class="prod-details">
-                      <span>$<span>12.99</span></span>
-                      <button class="shop-item-button" type='button'>ADD TO CART</button>
-                  </div>
-              </div>
-              <div id='album2'>
-                  <h3>Album 2</h3>
-                  <div class="image-container">
-                      <img class="prod-images" src={img2} alt=""/>
-                  </div>
-                                  <div class="prod-details">
-                      <span>$<span>14.99</span></span>
-                      <button class="shop-item-button" type='button'>ADD TO CART</button>
-                  </div>
-              </div>
-              <div id='album3'>
-                  <h3>Album 3</h3>
-                  <div class="image-container">
-                      <img class="prod-images" src= {img3} alt=""/>
-                  </div>
-                                  <div class="prod-details">
-                      <span>$<span>9.99</span></span>
-                      <button class="shop-item-button" type='button'>ADD TO CART</button>
-                  </div>
-              </div>
-              <div id='album4'>
-                  <h3>Album 4</h3>
-                  <div class="image-container">
-                      <img class="prod-images"src= {img4} alt=""/>
-                  </div>
-                                  <div class="prod-details">
-                      <span>$<span>19.99</span></span>
-                      <button class="shop-item-button" type='button'>ADD TO CART</button>
-                  </div>
-              </div>
-          </div>
-
+      <section id="about" className="container">
+        <h2>ABOUT</h2>
+        <div>
+          <img src={img1} alt="" /> 
+          <p>
+          Lorem ipsum carrots enhanced rebates. Excellent sayings of a man of sorrows, hates no prosecutors will unfold in the enduring of which were born in it? Often leads smallest mistake some pain main responsibilities are to stand for the right builder of pleasure, accepted explain up to now. , The things we are accusing of these in the explication of the truth receives from the flattery of her will never be the trouble and they are refused to the pleasures and the pleasures of the pain, explain the treatment of excepturi of the blessed sufferings. I never said will unfold in him receives at another time he may please the one that those works, we are less than they, this refused to the pleasures of deleniti? Those are! Will unfold in times of pleasure, this pain will be a right enjoyed by corrupt, are accusing him of all pleasures, and seek his own, or, to the needs of the agony of the choice. We hate the fellow.
+            <br />
+            Lorem ipsum dolor, sit amet consectetur rebates. The distinction, that arise from or to. The greater, therefore, an obstacle to the duties of the debts receives the very great importance to us that these are consequent to that question is answered, which was selected for the fault, it is often one of us, however, have any! Moreover, this is often not at once take the hardships of the life of harsh condemn, we are accusing him? Him whom something large cisterns.          </p>
+        </div>
       </section>
-      <section id="merch" class="container">
-          <h2>MERCH</h2>
-          <div id="merch-content">
-              <div id="t-shirt">
-                  <h3>T-Shirt</h3>
-                  <div class="image-container">
-                      <img class="prod-images"src= {img6} alt=""/>
-                  </div>
-                              <div class="prod-details">
-                      <span>$<span>19.99</span></span>
-                      <button class="shop-item-button" type='button'>ADD TO CART</button>
-                  </div>
-              </div>
-              <div id="coffee-cup">
-                  <h3>Coffee Cup</h3>
-                  <div class="image-container">
-                      <img class="prod-images" src= {img5} alt=""/>
-                  </div>
-                              <div class="prod-details">
-                      <span>$<span>6.99</span></span>
-                      <button class="shop-item-button" type='button'>ADD TO CART</button>
-                  </div>
-              </div>
-          </div>
-          </section>
-  </div>
+    </div>
   );
 }
 

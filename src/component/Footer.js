@@ -1,7 +1,7 @@
 import React from 'react';
-function Footer() {
+function footer() {
   return (
-    <Footer>
+    <footer>
       <div className="footer-title">
         The Generics
       </div>
@@ -24,8 +24,8 @@ function Footer() {
           </li>
         </ul>
       </div>
-    </Footer>
+    </footer>
   );
 }
 
-export default Footer;
+export default footer;

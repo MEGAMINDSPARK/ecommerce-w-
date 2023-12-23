@@ -23,7 +23,7 @@ header {
 }
 header h1{
     padding:40px;
-    font-size:100px;
+    font-size:110px;
 }
 header ul{
     display:flex;
@@ -326,7 +326,7 @@ footer .footer-icons{
 }
 
 #about p{
-    font-size:17px;
+    font-size:20px;
     margin:20px;
     color:#777;
 }
